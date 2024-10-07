@@ -1,0 +1,19 @@
+3 5 given:1 result:1
+7 given copyvalue
+c1:5 copyvalue two 41
+c2:5 counter copyvalue 31
+7 subresult result
+7 zero subresult
+7 zero counter
+2 copyvalue one copyvalue
+3 c1
+1 subresult result subresult
+1 counter one counter
+3 c2
+stop:9
+one:1
+zero:0
+copyvalue:0
+subresult:0 
+counter:0
+two:2
