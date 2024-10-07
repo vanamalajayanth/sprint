@@ -1,0 +1,17 @@
+3 5 given:4 result:0
+c1:5 counter checker 30
+c2:5 given subresult 25
+1 checker one checker
+7 zero subresult
+7 zero counter
+3 c1
+2 checker one result
+stop:9
+1 checker subresult subresult
+1 counter one counter
+3 c1
+counter:0
+one:1
+subresult:0
+checker:0
+zero:0
