@@ -1,0 +1,17 @@
+3 7 element1:50 length:6 target:2 result:0
+7 element1 addressl
+1 element1 length addressr
+2 addressr one addressr
+i1:7 addressr x
+7 addressl y
+c1:5 y x i2
+9
+i2:7 addressr:0 tempholder
+7 addressl:0 x:0
+7 tempholder y:0
+1 addressl one addressl
+2 addressr one addressr
+3 i1
+one:1 tempholder:0
+1 2 3 4 5 6
+
