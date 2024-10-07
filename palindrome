@@ -1,0 +1,29 @@
+3 5 given:1301 result:0
+7 given x
+c1:5 x ten 22
+2 x ten x
+1 quotient one quotient
+3 c1
+7 zero temp
+7 zero counter
+c2:5 counter ten 57
+1 temp x rev
+7 quotient x
+c3:4 quotient zero 48
+7 zero quotient
+3 c1
+c4:4 rev given 53
+stop:9
+7 one result
+9
+1 temp rev temp
+1 counter one counter
+3 c2
+counter:0
+x:0
+ten:10
+rev:0
+quotient:0
+one:1
+temp:0
+zero:0
