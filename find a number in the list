@@ -1,0 +1,13 @@
+3 7 element1:49 length:5 target:2 result:0
+7 element1 address
+c1:5 counter length 15
+halt:9
+c2:4 address:0 target 29
+1 counter one counter
+1 address one address
+3 c1
+7 one result 
+9
+one:1 counter:0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+5 4 2 3 5
