@@ -1,0 +1,90 @@
+7 start ccopy
+
+c9:4 ccopy nine halt
+c7:4 ccopy seven p7
+c1:4 ccopy one p1
+c2:4 ccopy two p2
+c4:4 ccopy four p4
+c5:4 ccopy five p5
+c3:4 ccopy three p3
+9
+p3:1 caddress one mdaddress1
+1 saddress mdaddress1:0 caddress
+2 caddress one caddress
+ri1:7 caddress x
+7 x:0 ccopy
+3 c9    
+
+p7:1 caddress one coaddress1
+1 caddress two coaddress2
+1 saddress coaddress1:0 coaddress1
+2 coaddress1 one a
+1 saddress coaddress2:0 coaddress2
+2 coaddress2 one b
+7 a:0 b:0
+1 caddress three caddress
+3 ri1
+
+p1:1 caddress one aaddress1
+1 caddress two aaddress2
+1 caddress three aaddress3
+1 saddress aaddress1:0 aaddress1
+2 aaddress1 one c
+1 saddress aaddress2:0 aaddress2
+2 aaddress2 one d
+1 saddress aaddress3:0 aaddress3
+2 aaddress3 one e
+1 c:0 d:0 e:0
+1 caddress four caddress
+3 ri1
+
+p2:1 caddress one suaddress1
+1 caddress two suaddress2
+1 caddress three suaddress3
+1 saddress suaddress1:0 suaddress1
+2 suaddress1 one f
+1 saddress suaddress2:0 suaddress2
+2 suaddress2 one g
+1 saddress suaddress3:0 suaddress3
+2 suaddress3 one h
+2 f:0 g:0 h:0
+1 caddress four caddress
+3 ri1
+
+p4:1 caddress one jeaddress1
+1 caddress two jeaddress2
+1 caddress three jeaddress3
+1 saddress jeaddress1:0 jeaddress1
+2 jeaddress1 one i
+1 saddress jeaddress2:0 jeaddress2
+2 jeaddress2 one j
+1 saddress jeaddress3:0 jeaddress3
+2 jeaddress3 one k
+4 i:0 j:0 jump
+1 caddress four caddress
+3 ri1
+jump:7 jeaddress3 caddress
+2 caddress one caddress
+3 ri1
+
+p5:1 caddress one jladdress1
+1 caddress two jladdress2
+1 caddress three jladdress3
+1 saddress jladdress1:0 jladdress1
+2 jladdress1 one l
+1 saddress jladdress2:0 jladdress2
+2 jladdress2 one m
+1 saddress jladdress3:0 jladdress3
+2 jladdress3 one o
+5 l:0 m:0 jump2
+1 caddress four caddress
+3 ri1
+jump2:7 jladdress3 caddress
+2 caddress one caddress
+3 ri1
+
+    0 0 0 
+
+caddress:start saddress:start 
+halt:9 ccopy:0 nine:9 three:3 one:1 seven:7 two:2 four:4 k:0 five:5 o:0
+start:3 3 3 5 7 1 4 9
