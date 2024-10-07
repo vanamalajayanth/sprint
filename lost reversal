@@ -1,0 +1,27 @@
+3 5 element1:100 length:5
+7 length x
+7 element1 addressl
+1 element1 length addressr
+2 addressr one addressr
+c1:5 x two c2
+2 x two x
+1 quotient one quotient
+3 c1
+c2:5 counter quotient 38
+halt:9
+7 addressl:0 tempholder
+7 addressl caddressl
+7 addressr:0  caddressl:0
+7 addressr caddressr
+7 tempholder caddressr:0
+2 caddressr one addressr
+1 caddressl one addressl
+1 counter one counter
+3 c2
+one:1
+tempholder:0
+quotient:0
+x:0
+counter:0
+two:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 3 4 5
